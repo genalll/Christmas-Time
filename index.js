@@ -3,6 +3,17 @@ Year = Data.getFullYear();
 Month = Data.getMonth();
 Day = Data.getDate();
  
+function dste(){
+var one = new Date("Yanuar  2021 20:22:48"); // дата, до которой считаем.
+	var two = Date.now(); // текущее время
+	var remaining = one - two; // миллисекунды до даты
+	remaining /= 1000; // секунды до даты
+	remaining /= 60;    // минуты до даты
+	remaining /= 60;    // часы до даты
+	remaining /= 24;    // дни до даты
+	 
+return remaining;
+}
 
 switch (Month)
 {
@@ -21,4 +32,4 @@ switch (Month)
 }
  
 document.getElementById("test").innerHTML="Сегодня "+Day+" "+fMonth+" "+Year+" года ";
-document.getElementById("day").innerHTML= 31 - Data.getDate();
+document.getElementById("day").innerHTML= dste();
