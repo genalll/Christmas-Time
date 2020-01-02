@@ -4,7 +4,7 @@ Month = Data.getMonth();
 Day = Data.getDate();
  
 function dste(){
-var one = new Date("January  2021 20:22:48"); // дата, до которой считаем.
+var one = new Date(2021, 0, 1, 0, 0, 0, 0); // дата, до которой считаем.
 	var two = Date.now(); // текущее время
 	var remaining = one - two; // миллисекунды до даты
 	remaining /= 1000; // секунды до даты
