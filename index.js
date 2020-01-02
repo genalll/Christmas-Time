@@ -32,4 +32,4 @@ switch (Month)
 }
  
 document.getElementById("test").innerHTML="Сегодня "+Day+" "+fMonth+" "+Year+" года ";
-document.getElementById("day").innerHTML= dste();
+document.getElementById("day").innerHTML= toFixed(dste());
