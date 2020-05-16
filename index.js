@@ -21,7 +21,7 @@ switch (Month)
   case 1: fMonth="февраля"; break;
   case 2: fMonth="марта"; break;
   case 3: fMonth="апреля"; break;
-  case 4: fMonth="мае"; break;
+  case 4: fMonth="мая"; break;
   case 5: fMonth="июня"; break;
   case 6: fMonth="июля"; break;
   case 7: fMonth="августа"; break;
